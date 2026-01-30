@@ -115,3 +115,12 @@ class Node:
     def get_solution(self):
         """Return the sequence of actions to go from the root to this node."""
         return [node.action for node in self.get_path_from_root()[1:]]
+
+
+def evaluate(node):
+    if node:
+        print("The search algorithm reached " + node.state + " with a cost of " + str(node.path_cost) + ".")
+        print("The actions that led to the solutions are the following: ")
+        print(node.get_solution())
+    else: 
+        print('no solution found')
