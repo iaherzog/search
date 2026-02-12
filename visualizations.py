@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import folium
 from ipywidgets import interact, fixed, IntSlider
 
-import sbb
 
 def plot_search_step(step_index, history, sbb_data, sbb_graph):
     if not history or step_index >= len(history):

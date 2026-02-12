@@ -1,9 +1,7 @@
-# host this on a public repository, and include !git clone in notebook cells
-
 # Agents and Environments
 
 def check_environment_logic(student_dict):
-    # Defining the correct properties based on the search problem model [3, 4]
+    # Defining the correct properties based on the search problem model 
     expected = {
         "observable": "fully", 
         "predictability": "deterministic", 
